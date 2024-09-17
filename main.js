@@ -1,121 +1,34 @@
-function input7(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value +=(7);
- }
- 
- function input8(){
-     var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value +=(8);
- }
+function yaratDiv(){
+    var div=document.createElement('div');
+    var form1=document.getElementById('form1');
+    var h1=document.createElement('h1');
+    var h2=document.createElement('h2');
+    var inp1=document.getElementById('inp1');
 
- function input9(){
-    var asos = document.getElementById('asos');
-     console.log(asos);
-     asos.value +=(9);
- }
+    btn1=innerText="EDIT"
 
- function input10(){
-    var asos = document.getElementById('asos');
-    console.log(asos);
-    asos.value +="+";
- }
+    h1.style.width="80px";
+    h1.style.height="50px";
+    h1.style.backgroundColor="gold";
+    h1.style.marginLeft="55%";
 
- function salom1(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+=(4);
- }
+    h2.style.width="80px";
+    h2.style.height="50px";
+    h2.style.backgroundColor="gold";
+    h2.style.marginLeft="1px";
+    h2.style.positionap="absolute";
+    h2.style.marginBottom="10px";
 
- function salom2(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+=(5);
- }
 
- function salom3(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+=(6);
- }
+    div.style.width="100%";
+    div.style.height="8vh";
+    div.style.backgroundColor="red";
+    div.style.marginTop="10px";
+    div.style.borderRadius="15px";
 
- function book(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+="*";
- }
+    div.appendChild(h1);
+    div.appendChild(h2);
 
- function div1(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+=(1);
- }
-
- function div2(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+=(2);
- }
-
- function div3(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+=(3);
- }
-
- function inputa(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+="-";
- }
-
- function div4(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+=(0);
- }
-
- function books(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+=".";
- }
-
- function booked(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value+="/";
- }
-
- function value1(){
-    var asos=document.getElementById('asos');
-     console.log(asos.value);
-     var natija = eval(asos.value);
-     console.log(natija);
-     asos.value = natija;
- }
-
- function inputac(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value -="AC";
- }
-
- function ustoz(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value +="+/-";
- }
-
- function ustoz1(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value +="%";
- }
-
- function ustoz2(){
-    var asos=document.getElementById('asos');
-     console.log(asos);
-     asos.value =" ";
- }
+    console.log(div);
+    form1.appendChild(div);    
+}
